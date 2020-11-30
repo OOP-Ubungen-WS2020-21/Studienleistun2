@@ -52,6 +52,7 @@ Am Ende des Spiels soll angezeigt werden, wie oft zwei Karten verglichen wurden.
 Alle benötigten Bilder befinden sich im Ordner `data/assets`, der im Starterpaket enthalten ist.
 
 Folgende Anforderungen muss das Memoryspiel für diese Aufgabe erfüllen:
+
 * Die Klasse `MemoryApp` muss als Einstiegspunkt für Ihr Memoryspiel verwendet werden
 * Teilen Sie Ihre Anwendung in sinnvolle Komponenten ein und legen Sie entsprechende Klassen dafür an
 * Trennen Sie die Daten von Objekten (z.B. Karten) von deren Darstellung
