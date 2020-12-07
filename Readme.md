@@ -56,8 +56,9 @@ Folgende Anforderungen muss das Memoryspiel für diese Aufgabe erfüllen:
 * Die Klasse `MemoryApp` muss als Einstiegspunkt für Ihr Memoryspiel verwendet werden
 * Teilen Sie Ihre Anwendung in sinnvolle Komponenten ein und legen Sie entsprechende Klassen dafür an
 * Trennen Sie die Daten von Objekten (z.B. Karten) von deren Darstellung
-* Verwenden Sie die Klasse `java.io.File` anhand von `File[] files = new File(PATH_TO_ASSETS).listFiles()`, um ein `Array' zu erhalten, dass alle darin befindlichen Dateien enthält
-* Verwenden Sie die Methode `getAbsolutePath()`, um den absoluten Pfad einer Datei zu bekommen die als `java.io.File` Objekt vorliegt
+* Verwenden Sie die Klasse `java.io.File` 
+  * `File[] files = new File(PATH_TO_ASSETS).listFiles()`, um ein `Array' zu erhalten, dass alle darin befindlichen Dateien enthält
+  * Verwenden Sie die Methode `getAbsolutePath()`, um den absoluten Pfad einer Datei zu bekommen die als `java.io.File` Objekt vorliegt
 * Verwenden Sie `java.util.Random` und `Random.nextInt()`, um beim Spielstart die Karten zu *mischen*, also die Bilder auf zufällige Art und Weise den Karten zuzuteilen
 * Um Mausklicks zu verarbeiten, benutzen Sie `de.ur.mi.oop.events.GraphicsAppMouseListener` und überschreiben sie die Methode `onMousePressed`
 * Um zu überprüfen, ob eine Karte angeklickt wurde, verwenden Sie die Methode `hitTest(int x, int y)`, des angeklickten `GraphicObject`, z.B. (`Rectangle`)
